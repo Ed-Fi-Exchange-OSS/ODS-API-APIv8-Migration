@@ -1,5 +1,10 @@
 # Ed-Fi API
 
+> [!WARNING]
+> ❗❗❗This is a fork of [the real Ed-Fi API v8](https://github.com/Ed-Fi-Alliance-OSS/Data-Management-Service) repository, whose
+> purpose is to demonstrate how agency can add their own seed data and scripts to the repository while also staying
+> in sync with the real code.
+
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Ed-Fi-Alliance-OSS/Data-Management-Service/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Ed-Fi-Alliance-OSS/Data-Management-Service)
 
 This repository contains the **Ed-Fi API**, version 8 — the next major version of
