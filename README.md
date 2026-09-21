@@ -54,7 +54,7 @@ for detailed information on how to contribute source code.
 - [Removing reference validation](./docs/REFERENCE-VALIDATION.md)
 - [Setting Up Development Environment](./docs/SETUP-DEV-ENVIRONMENT.md)
 - [School Year Loader](./docs/SCHOOL-YEAR-LOADER.md)
-- [Sample State Data] (./docs/STATE-SAMPLE-DATA.md)
+- [Sample State Data](./docs/STATE-SAMPLE-DATA.md)
 ## Legal Information
 
 Copyright (c) 2026 Ed-Fi Alliance, LLC and contributors.
