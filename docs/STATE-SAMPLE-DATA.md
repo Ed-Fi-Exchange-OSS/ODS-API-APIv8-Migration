@@ -19,19 +19,20 @@ Within that directory are the following subdirectories:
 These are the commands that were used to build this extension (based on model 5.2)
 
 Make sure we are starting fresh 
-Data-Management-Service/eng/docker-compose> ./bootstrap-local-dms.ps1 -d -v    
+```Data-Management-Service/eng/docker-compose> ./bootstrap-local-dms.ps1 -d -v  ```    
 
 build 5.2 (maybe we dont need this, we can just get it from the edfi metaed output?)
-./bootstrap-local-dms.ps1  -EnableSwaggerUI  -DataStandardVersion 5.2      
-
-
+``` ./bootstrap-local-dms.ps1  -EnableSwaggerUI  -DataStandardVersion 5.2
 cp ../metaEd/MetaEdOutput/NMPED/ApiSchema/ApiSchema-EXTENSION.json ../mySchemas/
-
-ata-Management-Service/eng/docker-compose> ./prepare-dms-schema.ps1 -ApiSchemaPath "/repos/Data-Management-Service/eng/stateOfJon/mySchemas" 
+ata-Management-Service/eng/docker-compose> ./prepare-dms-schema.ps1 -ApiSchemaPath "/repos/Data-Management-Service/eng/nmped/mySchemas" 
 ./prepare-dms-claims.ps1 -ClaimsDirectoryPath "/repos/Data-Management-Service/eng/nmped/myClaims"
-
 Data-Management-Service/eng/docker-compose> ./bootstrap-local-dms.ps1 -d -v    
-
-
 Data-Management-Service/eng/docker-compose> ./bootstrap-local-dms.ps1  -EnableSwaggerUI   
+```
 
+## To Do:
+* Figure out how to use the XSD files from metaEd with extension definitions in order to seed extension data
+* Add example of seed data for extended descriptor
+* Try and reproduce the extension errors I ran into, a couple things built in metaed but threw errors during the bootstrap startup
+* Did into client management / configuration service
+* general proof reading
