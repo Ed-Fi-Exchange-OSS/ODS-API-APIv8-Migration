@@ -1,0 +1,8 @@
+
+CREATE INDEX IF NOT EXISTS IX_StaffDevelopment_EducationOrganizationId ON nmped.StaffDevelopment(EducationOrganizationId) INCLUDE (Id);
+
+CREATE INDEX IF NOT EXISTS IX_StudentCTEProgramAssociationCredential_EducationOrganizationId ON nmped.StudentCTEProgramAssociationCredential(EducationOrganizationId) INCLUDE (Id);
+
+CREATE INDEX IF NOT EXISTS IX_StudentCTEProgramAssociationCredential_ProgramEducationOrganizationId ON nmped.StudentCTEProgramAssociationCredential(ProgramEducationOrganizationId) INCLUDE (Id);
+
+CREATE INDEX IF NOT EXISTS IX_StudentEducationOrganizationAward_EducationOrganizationId ON nmped.StudentEducationOrganizationAward(EducationOrganizationId) INCLUDE (Id);

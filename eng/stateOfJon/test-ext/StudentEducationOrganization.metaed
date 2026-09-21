@@ -1,4 +1,0 @@
-Association EdFi.StudentEducationOrganizationAssociation additions
-    descriptor HairColor
-    documentation "hair color of student"
-    is optional

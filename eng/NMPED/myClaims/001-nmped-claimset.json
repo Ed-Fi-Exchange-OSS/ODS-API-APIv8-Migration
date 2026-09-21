@@ -1,0 +1,53 @@
+{
+  "name": "NmpedClaims",
+  "resourceClaims": [
+    {
+      "isParent": true,
+      "name": "domains/systemDescriptors",
+      "children": [
+        { "name": "http://ed-fi.org/identity/claims/nmped/AnnualReviewDelayReasonDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/DentalExaminationVerificationCodeDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/DirectCertificationStatusDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/ExpectedDiplomaTypeDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/IndustryCredentialDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/LevelOfEducationInstitutionDescriptor"},
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/LevelOfIntegrationDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/MilitaryFamilyDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/NMPEDClassPeriodDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/ParticipationInformationDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/PlannedPostGraduateActivityDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/PreKClassTypeDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/PrimaryAreaOfExceptionalityDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/ProgramDeliveryMethodDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/ProgramIntensityDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/RoadTypeDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/SpecialEducationEventReasonDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/SpecialEducationEventTypeDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/SpecialEducationNonComplianceReasonDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/SpecialEducationReferralCodeDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/SpecialProgramCodeDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/StaffDevelopmentActivityCodeDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/StaffDevelopmentPurposeCodeDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/StudentAwardTypeDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/TransportationCategoryDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/TransportationSetCodeDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/TriennialReviewDelayReasonDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/VehicleBodyManufacturerDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/VehicleChassisManufacturerDescriptor"} ,
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/VehicleFuelTypeDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/VehicleRouteDescriptor" },
+    { "name": "http://ed-fi.org/ods/identity/claims/nmped/VehicleTypeDescriptor" }
+  ]
+},
+    {
+      "isParent": true,
+      "name": "domains/relationshipBasedData",
+      "children": [
+        { "name": "http://ed-fi.org/identity/claims/nmped/StaffDevelopment"},
+        { "name": "http://ed-fi.org/identity/claims/nmped/StudentEducationOrganizationAward"},
+	{ "name": "http://ed-fi.org/identity/claims/nmped/StudentCTEProgramAssociationCredential"}
+      ]
+   }
+
+  ]
+}

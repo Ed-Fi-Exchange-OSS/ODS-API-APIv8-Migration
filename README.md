@@ -2,7 +2,7 @@
 
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Ed-Fi-Alliance-OSS/Data-Management-Service/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Ed-Fi-Alliance-OSS/Data-Management-Service)
 
-This repository contains the **Ed-Fi API**, version 8 — the next major version of
+This repository contains a sample version of a state's implementation of the **Ed-Fi API**, version 8 — the next major version of
 the Ed-Fi API platform, continuing the lineage from the Ed-Fi ODS/API. It comprises
 two applications:
 
@@ -11,6 +11,8 @@ two applications:
    API, and Ed-Fi Discovery API specifications.
 2. The Ed-Fi API Configuration Service (internally, the DMS Configuration Service),
    a functional implementation of the Ed-Fi Management API specification.
+
+This branch also includes sample extension metaed, claims, and seed data associated with a state implementation.
 
 These applications replace the legacy Ed-Fi ODS/API and Ed-Fi ODS Admin API
 applications.
@@ -52,7 +54,7 @@ for detailed information on how to contribute source code.
 - [Removing reference validation](./docs/REFERENCE-VALIDATION.md)
 - [Setting Up Development Environment](./docs/SETUP-DEV-ENVIRONMENT.md)
 - [School Year Loader](./docs/SCHOOL-YEAR-LOADER.md)
-
+- [Sample State Data] (./docs/STATE-SAMPLE-DATA.md)
 ## Legal Information
 
 Copyright (c) 2026 Ed-Fi Alliance, LLC and contributors.

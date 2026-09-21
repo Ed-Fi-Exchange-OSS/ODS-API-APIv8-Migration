@@ -1,0 +1,18 @@
+
+DROP INDEX IF EXISTS IX_StaffDevelopment_EducationOrganizationId;
+CREATE INDEX IF NOT EXISTS IX_StaffDevelopment_EducationOrganizationId ON nmped.StaffDevelopment(EducationOrganizationId) INCLUDE (AggregateId);
+
+CREATE INDEX IF NOT EXISTS IX_StaffDevelopment_StaffUSI ON nmped.StaffDevelopment(StaffUSI) INCLUDE (AggregateId);
+
+DROP INDEX IF EXISTS IX_StudentCTEProgramAssociationCredential_EducationOrganizationId;
+CREATE INDEX IF NOT EXISTS IX_StudentCTEProgramAssociationCredential_EducationOrganizationId ON nmped.StudentCTEProgramAssociationCredential(EducationOrganizationId) INCLUDE (AggregateId);
+
+DROP INDEX IF EXISTS IX_StudentCTEProgramAssociationCredential_ProgramEducationOrganizationId;
+CREATE INDEX IF NOT EXISTS IX_StudentCTEProgramAssociationCredential_ProgramEducationOrganizationId ON nmped.StudentCTEProgramAssociationCredential(ProgramEducationOrganizationId) INCLUDE (AggregateId);
+
+CREATE INDEX IF NOT EXISTS IX_StudentCTEProgramAssociationCredential_StudentUSI ON nmped.StudentCTEProgramAssociationCredential(StudentUSI) INCLUDE (AggregateId);
+
+DROP INDEX IF EXISTS IX_StudentEducationOrganizationAward_EducationOrganizationId;
+CREATE INDEX IF NOT EXISTS IX_StudentEducationOrganizationAward_EducationOrganizationId ON nmped.StudentEducationOrganizationAward(EducationOrganizationId) INCLUDE (AggregateId);
+
+CREATE INDEX IF NOT EXISTS IX_StudentEducationOrganizationAward_StudentUSI ON nmped.StudentEducationOrganizationAward(StudentUSI) INCLUDE (AggregateId);
