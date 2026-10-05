@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<InterchangeEducationOrganization xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../../Schemas/Bulk/Interchange-EducationOrganization.xsd">
-	<LocalEducationAgency id="35001000">
+<InterchangeEducationOrganization xmlns="http://ed-fi.org/5.2.0" xmlns:ann="http://ed-fi.org/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ed-fi.org/5.2.0 ../../mySchemas/Interchange-EducationOrganization.xsd">
+	<LocalEducationAgency id="LEA35001000">
 		<EducationOrganizationIdentificationCode>
 			<IdentificationCode>35001000</IdentificationCode>
 			<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
@@ -8,29 +8,11 @@
 		<NameOfInstitution>ALBUQUERQUE</NameOfInstitution>
 		<ShortNameOfInstitution>ALBUQUERQUE</ShortNameOfInstitution>
 		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#Local Education Agency</EducationOrganizationCategory>
-		<Address>
-			<StreetNumberName>6400 Uptown Blvd NE</StreetNumberName>
-			<City>Albuquerque</City>
-			<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#NM</StateAbbreviation>
-			<PostalCode>87110</PostalCode>
-		</Address>
-		<InstitutionTelephone>
-			<TelephoneNumber>(505) 880-3700</TelephoneNumber>
-			<InstitutionTelephoneNumberType>uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor#Main</InstitutionTelephoneNumberType>
-		</InstitutionTelephone>
-		<InstitutionTelephone>
-			<TelephoneNumber>(950) 366-2320</TelephoneNumber>
-			<InstitutionTelephoneNumberType>uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor#Fax</InstitutionTelephoneNumberType>
-		</InstitutionTelephone>
     	<WebSite>http://www.aps.edu</WebSite>
 		<LocalEducationAgencyId>35001000</LocalEducationAgencyId>
 		<LocalEducationAgencyCategory>uri://ed-fi.org/LocalEducationAgencyCategoryDescriptor#Independent</LocalEducationAgencyCategory>
 	</LocalEducationAgency>
-	
-	,(35001514,'','DEL NORTE HIGH','delnorte.aps.edu','Active','edfi.School','00044','5058837222','2006-06-30','2006-06-30',NULL,NULL,NULL,0,0,0,NULL,'CEP',0)
-
-	
-	<School id="35001514">
+	<School id="SCHOOL35001514">
 		<EducationOrganizationIdentificationCode>
 			<IdentificationCode>35001514</IdentificationCode>
 			<EducationOrganizationIdentificationSystem>uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor#SEA</EducationOrganizationIdentificationSystem>
@@ -38,22 +20,6 @@
 		<NameOfInstitution>DEL NORTE HIGH</NameOfInstitution>
 		<ShortNameOfInstitution>DEL NORTE HIGH</ShortNameOfInstitution>
 		<EducationOrganizationCategory>uri://ed-fi.org/EducationOrganizationCategoryDescriptor#School</EducationOrganizationCategory>
-		<Address>
-			<StreetNumberName>456 Elm Street</StreetNumberName>
-			<City>Grand Bend</City>
-			<StateAbbreviation>uri://ed-fi.org/StateAbbreviationDescriptor#TX</StateAbbreviation>
-			<PostalCode>73334</PostalCode>
-			<NameOfCounty>Williston</NameOfCounty>
-			<AddressType>uri://ed-fi.org/AddressTypeDescriptor#Physical</AddressType>
-		</Address>
-		<InstitutionTelephone>
-			<TelephoneNumber>(950) 325-9465</TelephoneNumber>
-			<InstitutionTelephoneNumberType>uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor#Main</InstitutionTelephoneNumberType>
-		</InstitutionTelephone>
-		<InstitutionTelephone>
-			<TelephoneNumber>(950) 393-3156</TelephoneNumber>
-			<InstitutionTelephoneNumberType>uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor#Fax</InstitutionTelephoneNumberType>
-		</InstitutionTelephone>
 		<WebSite>http://www.delnorte.aps.edu/</WebSite>
 		<OperationalStatus>uri://ed-fi.org/OperationalStatusDescriptor#Active</OperationalStatus>
 		<SchoolId>35001514</SchoolId>
@@ -65,7 +31,7 @@
 		<SchoolType>uri://ed-fi.org/SchoolTypeDescriptor#Regular</SchoolType>
 		<CharterStatus>uri://ed-fi.org/CharterStatusDescriptor#Not a Charter School</CharterStatus>
 		<TitleIPartASchoolDesignation>uri://ed-fi.org/TitleIPartASchoolDesignationDescriptor#Not A Title I School</TitleIPartASchoolDesignation>
-		<LocalEducationAgencyReference ref="35001000">
+		<LocalEducationAgencyReference ref="LEA35001000">
 		</LocalEducationAgencyReference>
 	</School>
 </InterchangeEducationOrganization>
