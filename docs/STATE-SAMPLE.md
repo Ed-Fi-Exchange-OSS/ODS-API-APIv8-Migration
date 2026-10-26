@@ -53,3 +53,4 @@ Data-Management-Service/eng/docker-compose> ./bootstrap-local-dms.ps1  -EnableSw
 * Try to reproduce the extension errors I ran into; a couple of things built in MetaEd but threw errors during the bootstrap startup
 * Dig into client management / configuration service
 * General proofreading
+
